@@ -6,5 +6,4 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
 add_executable(code main.c)
-target_compile_options(code PRIVATE -O2 -pipe -static -s)
-
+target_compile_options(code PRIVATE -O2 -pipe -s)
